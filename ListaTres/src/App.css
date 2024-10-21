@@ -1,0 +1,61 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+body{
+  background: url(./img/fundo03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box , #box10{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 650px;
+  height: 400px;
+  border: 6px solid rgb(255, 255, 255);
+  border-radius: 30px; 
+  backdrop-filter: blur(10px);
+  margin: 20px 0;
+
+}
+
+.remover-botao {
+  background-color: #ff0000; /* Cor de fundo vermelha */
+  border-radius: 20px;
+  color: #ffffff; /* Cor do texto branca */
+  border: none; /* Sem borda */
+  margin-left: 10px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho da fonte */
+  cursor: pointer; /* Cursor em forma de mão */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+  transition: background-color 0.2s ease-in-out; /* Transição ao clicar */
+}
+
+.remover-botao:hover {
+  background-color: #cc0000; /* Cor de fundo mais escura ao passar o mouse */
+}
+
+.remover-botao:active {
+  background-color: #aa0000; /* Cor de fundo mais escura ao clicar */
+  transform: translateY(2px); /* Efeito de clique */
+}
+
+
+#box10 img {
+  width: 200px;
+  margin: auto;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 30px;
+
+}
+
+
+
